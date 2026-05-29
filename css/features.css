@@ -1,0 +1,37 @@
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-item-list {
+    display: flex;
+    gap: 24px;
+}
+ 
+.feature-item {
+    width: calc((100% - 72px) / 4);
+} 
+
+.feature-item-pic {
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-item svg {
+    display: block;
+}
+
+.feature-item::before {
+    content: "";
+}
+
+.feature-item-title,
+.sr-only {
+    color: #2E2F42;
+}
