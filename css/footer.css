@@ -3,8 +3,7 @@
     background-color: #2E2F42;
     font-style: normal;
     letter-spacing: 0.02em;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 96px 0;
 }
 
 .footer-container {
@@ -12,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     gap: 72px;
+    text-align: center;
 }
 
 .footer-logo {
@@ -19,10 +19,26 @@
 }
 
 .footer-left {
-    max-width: 264px;    
+    max-width: 264px;   
+}
+
+.footer-socials {
+    max-width: 208px;
+}
+
+.footer-subscribe {
+    max-width: 453px;
+    margin-left: auto;
+}
+
+.footer-left,
+.footer-socials,
+.footer-subscribe {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
+    max-width: 100%;
 }
 
 .footer .social-list {
@@ -40,24 +56,11 @@
     font-weight: 500;
 }
 
-.footer-socials {
-    max-width: 208px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.footer-subscribe {
-    max-width: 453px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-left: auto;
-}
-
 .subscribe-form {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    align-items: center;
 }
 
 .subscribe-input {
@@ -70,7 +73,8 @@
     border: 1px solid white;
     border-radius: 4px;
     padding-left: 16px;
-    width: 264px;
+    width: 100%;
+    max-width: 264px;
     height: 40px;
     background-color: #2E2F42;
     border: 1px solid white;
@@ -109,6 +113,7 @@
     gap: 16px;
     padding: 8px 24px;
     height: 40px;
+    width: auto;
     max-width: 165px;
     background-color: #4D5AE5;
     color: white;

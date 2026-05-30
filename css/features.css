@@ -1,6 +1,6 @@
 .features-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-item-list {
@@ -13,12 +13,18 @@
     display: none;    
 }
 
-.feature-item svg {
-    display: block;
+.feature-item-title {
+    margin-bottom: 8px;
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
-.feature-item::before {
-    content: "";
+.feature-item p {
+    font-weight: 500;
 }
 
 .feature-item-title,

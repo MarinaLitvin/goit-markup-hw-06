@@ -3,17 +3,26 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #2e2f42;
-    padding: 72px 0;
+    padding-top: 72px;
+    padding-bottom: 72px;
     background-image:
-            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url("../images/hero-background/people-office-mobile@1x.jpg");
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero-background/people-office@1x.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 }
 
 .main-title {
+    max-width: 216px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 .button {
@@ -25,18 +34,15 @@
     cursor: pointer;
     letter-spacing: 0.04em;
     display: block;
-    margin-top: 48px;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
     box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-title,
-.button {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .button:focus,

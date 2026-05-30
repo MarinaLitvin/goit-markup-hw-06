@@ -1,14 +1,11 @@
 .portfolio-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 96px 0;
 }
 
 .portfolio-item-list {
     display: flex;
     flex-direction: column;
-    gap: 48px 24px;
-    flex-wrap: wrap;
-    margin-top: 72px;
+    gap: 48px;
 }
 
 .portfolio-item {
