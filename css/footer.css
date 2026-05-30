@@ -9,7 +9,9 @@
 
 .footer-container {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .footer-logo {
@@ -43,7 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-left: 120px;
 }
 
 .footer-subscribe {
@@ -56,8 +57,7 @@
 
 .subscribe-form {
     display: flex;
-    flex-direction: row;
-    gap: 24px;
+    flex-direction: column;
 }
 
 .subscribe-input {

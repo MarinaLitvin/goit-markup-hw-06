@@ -16,16 +16,9 @@
     column-gap: 40px;
 }
 
-.header-nav {
-    padding-left: 76px;
-    padding-right: 340px;
-}
-
-.header-social-list { 
-    width: 344px;
-    font-style: normal;
-    display: flex;
-    column-gap: 40px;
+.header-nav,
+.header-social-list {
+    display: none;
 }
 
 .header-social-link {
@@ -39,8 +32,8 @@
 
 .header-logo {
     color: #2e2f42; 
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 .header-nav-link,
