@@ -30,6 +30,7 @@
 
 .footer-subscribe {
     max-width: 453px;
+    width: 100%;
 }
 
 .footer-left,
@@ -62,6 +63,7 @@
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    width: 100%;
 }
 
 .subscribe-input {
@@ -177,6 +179,12 @@
     .footer-container {
         max-width: 1158px;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        gap: 120px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+        
+    .footer-subscribe {
+        margin-left: auto;
     }
 }
