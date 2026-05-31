@@ -21,6 +21,12 @@
     cursor: pointer;
 }
 
+.mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .mobile-menu-link {
     font-weight: 700;
     font-size: 36px;
@@ -39,14 +45,32 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .mobile-menu-bottom {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    margin-top: auto;
 }
 
 .mobile-menu-bottom .social-list {
     gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .mobile-menu-open {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .mobile-menu-open {
+        display: none;
+    }
 }

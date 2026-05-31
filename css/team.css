@@ -4,10 +4,6 @@
     background-color: #f4f4fd;
 }
 
-.team-section .section-title {
-    margin-bottom: 72px;
-}
-
 .team-card-list {
     display: flex;
     flex-direction: column;
@@ -44,4 +40,29 @@
 
 .team-card-text {
     text-align: center;
+}
+
+@media screen and (min-resolution: 2dppx) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .team-card-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px 24px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .team-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-card-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
 }
