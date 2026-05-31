@@ -7,11 +7,12 @@
 }
 
 .footer-container {
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 72px;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-logo {
@@ -19,7 +20,8 @@
 }
 
 .footer-left {
-    max-width: 264px;   
+    max-width: 264px;
+    text-align: left;
 }
 
 .footer-socials {
@@ -73,7 +75,7 @@
     border-radius: 4px;
     padding-left: 16px;
     width: 100%;
-    max-width: 264px;
+    max-width: 100%;
     height: 40px;
     background-color: #2E2F42;
     border: 1px solid white;
@@ -131,6 +133,7 @@
 
 @media screen and (min-width: 768px) {
     .footer-container {
+        max-width: 768px;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
@@ -170,6 +173,7 @@
     }
 
     .footer-container {
+        max-width: 1158px;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
